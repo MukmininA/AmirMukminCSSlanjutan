@@ -59,7 +59,6 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* === PROFIL === */
 #profil h1 {
     text-align: center;
 }
@@ -86,9 +85,10 @@ section {
     max-width: 100%;
     margin-bottom: 15px;
     border-radius: 10px;
+    display: block;
+    box-sizing: border-box;
 }
 
-/* === PROJEK - CSS GRID === */
 #projek {
     text-align: center;
 }
