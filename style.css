@@ -126,11 +126,14 @@ section {
     border-radius: 10px;
     width: 90%;
     margin: auto;
+    box-sizing: border-box; /* Menambahkan box-sizing untuk memastikan padding dan border tidak mempengaruhi ukuran */
+    border: 1px solid #ccc; /* Menambahkan border untuk keseragaman */
 }
 
 #kontak form {
     max-width: 600px;
     margin: auto;
+    box-sizing: border-box; /* Menjaga agar padding dan margin tidak mempengaruhi ukuran */
 }
 
 #kontak input,
@@ -141,7 +144,7 @@ section {
     margin-top: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Memastikan ukuran elemen tetap konsisten */
 }
 
 #kontak button {
