@@ -78,9 +78,8 @@ section {
     text-align: center;
 }
 
-#multimedia video,
-#multimedia audio {
-    width: 100%;
+#multimedia video {
+    width: auto;
     height: auto;
     max-width: 100%;
     margin-bottom: 15px;
