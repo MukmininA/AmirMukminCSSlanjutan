@@ -79,7 +79,7 @@ section {
 }
 
 #multimedia video {
-    width: 50%;
+    width: auto;
     height: auto;
     max-width: 100%;
     margin-bottom: 15px;
